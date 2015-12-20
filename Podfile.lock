@@ -1,12 +1,24 @@
 PODS:
-  - Expecta (1.0.5)
+  - OHHTTPStubs (4.6.0):
+    - OHHTTPStubs/Default (= 4.6.0)
+  - OHHTTPStubs/Core (4.6.0)
+  - OHHTTPStubs/Default (4.6.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (4.6.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (4.6.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (4.6.0)
 
 DEPENDENCIES:
-  - Expecta
+  - OHHTTPStubs
 
 SPEC CHECKSUMS:
-  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  OHHTTPStubs: cb1aefbbeb4de4e741644455d4b945538e5248a2
 
-PODFILE CHECKSUM: c94019ef48c5470930ba4e50c5431fed4b56ac94
+PODFILE CHECKSUM: ca5f48dc0f0cc4e52c547f575249a96e8e41d21b
 
 COCOAPODS: 0.39.0

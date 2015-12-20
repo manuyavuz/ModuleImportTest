@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 
-@import Expecta;
 
 @interface AppDelegate ()
 
@@ -19,7 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
-  expect(1).to.equal(1);
   return YES;
 }
 

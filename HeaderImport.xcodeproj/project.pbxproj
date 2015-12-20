@@ -14,7 +14,6 @@
 		4FE6A2521C26F2C40038AFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE6A2511C26F2C40038AFC6 /* Assets.xcassets */; };
 		4FE6A2551C26F2C40038AFC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE6A2531C26F2C40038AFC6 /* LaunchScreen.storyboard */; };
 		4FE6A2601C26F2C50038AFC6 /* HeaderImportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE6A25F1C26F2C50038AFC6 /* HeaderImportTests.m */; };
-		57E3DEFE21E5DAEBD910779F /* Pods_HeaderImport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C810F26F6CBE035A6722D7 /* Pods_HeaderImport.framework */; };
 		DA16599BCD6794B6E1D43D30 /* Pods_HeaderImportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47EB3780689D7BAE9BB7D35 /* Pods_HeaderImportTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0508EF1749B1493FB8D9EB81 /* Pods-HeaderImport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeaderImport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeaderImport/Pods-HeaderImport.debug.xcconfig"; sourceTree = "<group>"; };
 		0C257015394EC9B484138808 /* Pods-HeaderImportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeaderImportTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeaderImportTests/Pods-HeaderImportTests.release.xcconfig"; sourceTree = "<group>"; };
-		276A617FED86A7C3295100A9 /* Pods-HeaderImport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeaderImport.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeaderImport/Pods-HeaderImport.release.xcconfig"; sourceTree = "<group>"; };
 		3ECD0072ED264021F039AC70 /* Pods-HeaderImportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeaderImportTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeaderImportTests/Pods-HeaderImportTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46C810F26F6CBE035A6722D7 /* Pods_HeaderImport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeaderImport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE6A2421C26F2C40038AFC6 /* HeaderImport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeaderImport.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E3DEFE21E5DAEBD910779F /* Pods_HeaderImport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,8 +69,6 @@
 		4CEF2D8A6D0C94FDABFC17F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0508EF1749B1493FB8D9EB81 /* Pods-HeaderImport.debug.xcconfig */,
-				276A617FED86A7C3295100A9 /* Pods-HeaderImport.release.xcconfig */,
 				3ECD0072ED264021F039AC70 /* Pods-HeaderImportTests.debug.xcconfig */,
 				0C257015394EC9B484138808 /* Pods-HeaderImportTests.release.xcconfig */,
 			);
@@ -150,12 +144,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FE6A2641C26F2C50038AFC6 /* Build configuration list for PBXNativeTarget "HeaderImport" */;
 			buildPhases = (
-				E07F8F9A5B449DFC16E1766D /* Check Pods Manifest.lock */,
 				4FE6A23E1C26F2C40038AFC6 /* Sources */,
 				4FE6A23F1C26F2C40038AFC6 /* Frameworks */,
 				4FE6A2401C26F2C40038AFC6 /* Resources */,
-				DD2DF7A8582C5A014CCED1C8 /* Embed Pods Frameworks */,
-				2138451A0173A26572A2E241 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,21 +235,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2138451A0173A26572A2E241 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeaderImport/Pods-HeaderImport-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5A2D7F2ECCE9095ACD07EF3B /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,36 +278,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeaderImportTests/Pods-HeaderImportTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD2DF7A8582C5A014CCED1C8 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeaderImport/Pods-HeaderImport-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E07F8F9A5B449DFC16E1766D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -469,7 +415,6 @@
 		};
 		4FE6A2651C26F2C50038AFC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0508EF1749B1493FB8D9EB81 /* Pods-HeaderImport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HeaderImport/Info.plist;
@@ -481,7 +426,6 @@
 		};
 		4FE6A2661C26F2C50038AFC6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 276A617FED86A7C3295100A9 /* Pods-HeaderImport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HeaderImport/Info.plist;
