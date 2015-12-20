@@ -8,6 +8,6 @@ target 'HeaderImport' do
 end
 
 target 'HeaderImportTests' do
-
+  pod 'Expecta'
 end
 
