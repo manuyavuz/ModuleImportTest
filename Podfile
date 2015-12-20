@@ -4,10 +4,10 @@
 use_frameworks!
 
 target 'HeaderImport' do
-
+	pod 'Expecta'
 end
 
 target 'HeaderImportTests' do
-	pod 'Expecta'
+
 end
 
